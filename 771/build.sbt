@@ -15,6 +15,7 @@ scalaVersion := "2.12.4"
 //name := "771"
 //organization := "ch.epfl.scala"
 //version := "1.0"
+libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.5" % "test"
 
 // Note, it's not required for you to define these three settings. These are
 // mostly only necessary if you intend to publish your library's binaries on a
