@@ -1,4 +1,4 @@
-object Solution {
+object Solution{
 
   def main(args: Array[String]): Unit = {
     val pairs = args.sliding(2,2)
