@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/soumyadsanyal/code/scleetcode/771/src/main/scala/771.scala:7:45: not found: value p[0m
-[0m[[0m[31merror[0m] [0m[0m    pairs.foreach(println(numJewelsInStones(p(0), p(1))));[0m
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/soumyadsanyal/code/scleetcode/771/src/main/scala/771.scala:7:51: not found: value p[0m
-[0m[[0m[31merror[0m] [0m[0m    pairs.foreach(println(numJewelsInStones(p(0), p(1))));[0m
-[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
