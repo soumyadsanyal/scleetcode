@@ -1,3 +1,5 @@
+import java.lang.Math.{pow => power}
+
 class SolutionTest extends org.scalatest.FunSuite {
   test("Solution.numJewelsInStones") {
     assert(Solution.numJewelsInStones("soumya", "sanyal") === 4);
@@ -9,7 +11,8 @@ class SolutionTest extends org.scalatest.FunSuite {
     assert(Solution.numJewelsInStones("", "") === 0);
   }
   test("Solution.repeats") {
-    val repeats = 10
-    assert(Solution.numJewelsInStones("soumya", "sanyal"*repeats) === repeats*4);
+    val p = 12
+    val repeats = power(2,p).toInt
+    assert(Solution.numJewelsInStones("soumya", "sanyal"*repeats) === repeats*Solution.numJewelsInStones("soumya", "sanyal"));
   }
 }
